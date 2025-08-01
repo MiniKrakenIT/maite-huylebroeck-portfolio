@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../app.css';
+	import Footer from "$lib/components/Footer.svelte";
 
 	let { children } = $props();
 </script>
@@ -9,6 +10,7 @@
 <div class="relative container mx-auto font-body">
 	{@render children()}
 </div>
+<Footer></Footer>
 
 <style global>
 	.background-gradient {
