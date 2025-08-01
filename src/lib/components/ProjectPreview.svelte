@@ -39,7 +39,7 @@
 	</div>
 	<div>
 		<h3
-			class="mb-4 text-3xl font-extrabold text-primary italic {position === 'right'
+			class="mb-4 text-3xl font-extrabold text-primary font-title {position === 'right'
 				? 'text-right'
 				: ''}"
 		>

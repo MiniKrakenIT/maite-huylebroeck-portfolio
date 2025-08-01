@@ -6,6 +6,8 @@
 	--color-primary: #7c428b;
 	--color-secondary: #abc971;
 	--color-background: #e5e4d5;
+	--font-title: 'Shrikhand', serif;
+	--font-body: 'Montserrat', sans-serif;
 }
 
 html {

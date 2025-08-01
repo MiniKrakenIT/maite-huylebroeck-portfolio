@@ -6,7 +6,7 @@
 
 <span class="background-gradient absolute inset-0 -z-1 h-300 w-full"> </span>
 
-<div class="relative container mx-auto">
+<div class="relative container mx-auto font-body">
 	{@render children()}
 </div>
 

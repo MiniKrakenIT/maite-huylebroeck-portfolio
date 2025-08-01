@@ -29,5 +29,26 @@
 			nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
 			minim veniam, quis nostrud exerci tation ullamcorper
 		</ProjectPreview>
+		<ProjectPreview
+				href="#something"
+				img={profilePic}
+				title={'Hello World'}
+				tags={['svelte', 'sveltekit', 'tailwindcss']}
+		>
+			Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+			nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
+			minim veniam, quis nostrud exerci tation ullamcorper
+		</ProjectPreview>
+		<ProjectPreview
+				href="#something"
+				img={profilePic}
+				title={'Hello World'}
+				position="right"
+				tags={['svelte', 'sveltekit', 'tailwindcss']}
+		>
+			Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+			nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
+			minim veniam, quis nostrud exerci tation ullamcorper
+		</ProjectPreview>
 	</div>
 </div>
