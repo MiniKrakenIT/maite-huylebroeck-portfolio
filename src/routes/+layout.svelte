@@ -1,6 +1,6 @@
 <script lang="ts">
 	import '../app.css';
-	import Footer from "$lib/components/Footer.svelte";
+	import Footer from '$lib/components/Footer.svelte';
 
 	let { children } = $props();
 </script>
@@ -14,6 +14,6 @@
 
 <style global>
 	.background-gradient {
-		background: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-background) 50%);
+		background: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-background) 40%);
 	}
 </style>

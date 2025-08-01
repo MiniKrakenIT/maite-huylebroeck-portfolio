@@ -46,13 +46,14 @@
 				</svg>
 			</span>
 			<enhanced:img
+				loading="lazy"
 				class="rounded-full"
 				src={profilePic}
 				alt="Profile of Maite Huylebroeck"
 			/>
 		</div>
 		<div class="text-primary">
-			<h1 class="text-6xl font-title">Maïté Huylebroeck</h1>
+			<h1 class="font-title text-6xl">Maïté Huylebroeck</h1>
 			<h2 class="text-3xl">grafisch ontwerp en communicatie</h2>
 		</div>
 	</div>
@@ -67,7 +68,7 @@
 	<a
 		href="#nothingYet"
 		role="button"
-		class="mt-10 rounded-full bg-primary px-8 py-1.5 text-2xl text-background font-title shadow-xl transition-all hover:bg-background hover:text-primary hover:shadow-none hover:outline-2 hover:outline-primary"
+		class="mt-10 rounded-full bg-primary px-8 py-1.5 font-title text-2xl text-background shadow-xl transition-all hover:bg-background hover:text-primary hover:shadow-none hover:outline-2 hover:outline-primary"
 	>
 		Read More
 	</a>

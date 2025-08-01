@@ -9,7 +9,7 @@
 
 	<div class="relative mx-auto mt-40 flex w-2/3 flex-wrap gap-17">
 		<ProjectPreview
-			href="#something"
+			href="/projects/someproject"
 			img={profilePic}
 			title={'Hello World'}
 			tags={['svelte', 'sveltekit', 'tailwindcss']}
@@ -19,7 +19,7 @@
 			minim veniam, quis nostrud exerci tation ullamcorper
 		</ProjectPreview>
 		<ProjectPreview
-			href="#something"
+			href="/projects/someproject"
 			img={profilePic}
 			title={'Hello World'}
 			position="right"
@@ -30,21 +30,21 @@
 			minim veniam, quis nostrud exerci tation ullamcorper
 		</ProjectPreview>
 		<ProjectPreview
-				href="#something"
-				img={profilePic}
-				title={'Hello World'}
-				tags={['svelte', 'sveltekit', 'tailwindcss']}
+			href="/projects/someproject"
+			img={profilePic}
+			title={'Hello World'}
+			tags={['svelte', 'sveltekit', 'tailwindcss']}
 		>
 			Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
 			nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
 			minim veniam, quis nostrud exerci tation ullamcorper
 		</ProjectPreview>
 		<ProjectPreview
-				href="#something"
-				img={profilePic}
-				title={'Hello World'}
-				position="right"
-				tags={['svelte', 'sveltekit', 'tailwindcss']}
+			href="/projects/someproject"
+			img={profilePic}
+			title={'Hello World'}
+			position="right"
+			tags={['svelte', 'sveltekit', 'tailwindcss']}
 		>
 			Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
 			nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad

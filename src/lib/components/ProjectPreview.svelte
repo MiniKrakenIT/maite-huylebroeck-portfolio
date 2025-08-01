@@ -35,11 +35,11 @@
 			? 'ml-14'
 			: 'mr-14'}"
 	>
-		<enhanced:img class="rounded-full" src={img} alt="Project preview" />
+		<enhanced:img loading="lazy" class="rounded-full" src={img} alt="Project preview" />
 	</div>
 	<div>
 		<h3
-			class="mb-4 text-3xl font-extrabold text-primary font-title {position === 'right'
+			class="mb-4 font-title text-3xl font-extrabold text-primary {position === 'right'
 				? 'text-right'
 				: ''}"
 		>
