@@ -48,7 +48,7 @@
 			<enhanced:img
 				class="rounded-full"
 				src={profilePic}
-				alt="Profile picture of Maite Huylebroeck"
+				alt="Profile of Maite Huylebroeck"
 			/>
 		</div>
 		<div class="text-primary">
