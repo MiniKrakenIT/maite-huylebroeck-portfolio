@@ -54,7 +54,7 @@
 		</div>
 		<div class="text-primary">
 			<h1 class="font-title text-6xl">Maïté Huylebroeck</h1>
-			<h2 class="text-3xl">grafisch ontwerp en communicatie</h2>
+			<h2 class="text-3xl">graphic design and communications</h2>
 		</div>
 	</div>
 	<p class="mx-auto mt-20 w-2/3 text-center text-xl text-primary">
