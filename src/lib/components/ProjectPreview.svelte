@@ -41,7 +41,7 @@
 		<h3
 			class="mb-4 font-title text-3xl font-extrabold text-primary {position === 'right'
 				? 'text-right'
-				: ''}"
+				: 'text-left'}"
 		>
 			{title}
 		</h3>
@@ -54,7 +54,7 @@
 				</span>
 			{/each}
 		</div>
-		<p class="text-lg text-primary {position === 'right' ? 'text-right' : ''}">
+		<p class="text-lg text-primary {position === 'right' ? 'text-right' : 'text-left'}">
 			{@render description()}
 		</p>
 	</div>

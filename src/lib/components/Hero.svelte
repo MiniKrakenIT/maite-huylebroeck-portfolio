@@ -58,18 +58,14 @@
 		</div>
 	</div>
 	<p class="mx-auto mt-20 w-2/3 text-center text-xl text-primary">
-		Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-		nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
-		minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisi ut aliquip ex ea
-		commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
-		consequat, vel illum dolore eu feugiat nulla facilisis at
+		Hey, I’m Maïté, a graphic designer and communication wizard with a soft spot for unexpected color combinations, balanced layouts, and the occasional quirky twist that makes a design unique and inspiring.
 	</p>
 
 	<a
-		href="#nothingYet"
+		href="/about-me"
 		role="button"
 		class="mt-10 rounded-full bg-primary px-8 py-1.5 font-title text-2xl text-background shadow-xl transition-all hover:bg-background hover:text-primary hover:shadow-none hover:outline-2 hover:outline-primary"
 	>
-		Read More
+		Read more…
 	</a>
 </div>
