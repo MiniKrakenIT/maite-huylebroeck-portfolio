@@ -245,13 +245,8 @@
 	];
 </script>
 
-<Masonry
-		stretchFirst={true}
-		gridGap={'0.75rem'}
-		colWidth={'minmax(Min(20em, 100%), 1fr)'}
->
+<Masonry stretchFirst={true} gridGap={'0.75rem'} colWidth={'minmax(Min(20em, 100%), 1fr)'}>
 	{#each images as img}
-		<img loading="lazy"
-			 class="rounded-full" src="{img.download_url}" alt="">
+		<img loading="lazy" class="rounded-full" src={img.download_url} alt="" />
 	{/each}
 </Masonry>

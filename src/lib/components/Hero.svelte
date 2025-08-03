@@ -58,7 +58,9 @@
 		</div>
 	</div>
 	<p class="mx-auto mt-20 w-2/3 text-center text-xl text-primary">
-		Hey, I’m Maïté, a graphic designer and communication wizard with a soft spot for unexpected color combinations, balanced layouts, and the occasional quirky twist that makes a design unique and inspiring.
+		Hey, I’m Maïté, a graphic designer and communication wizard with a soft spot for unexpected
+		color combinations, balanced layouts, and the occasional quirky twist that makes a design unique
+		and inspiring.
 	</p>
 
 	<a
