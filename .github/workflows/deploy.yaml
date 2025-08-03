@@ -21,7 +21,6 @@ jobs:
       - name: build
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
-          PUBLIC_ORIGIN: ${{ secrets.PUBLIC_ORIGIN }}
 
         run: |
           bun run build
