@@ -2,9 +2,9 @@
 	import profilePic from '$lib/assets/profile.jpg?enhanced';
 </script>
 
-<div class="relative flex w-full flex-col items-center px-15">
-	<div class="mt-35 flex items-center justify-center">
-		<div class="relative mr-15 w-50">
+<div class="relative flex w-full flex-col items-center lg:px-15">
+	<div class="mt-20 lg:mt-35 gap-15 flex flex-col lg:flex-row items-center justify-center">
+		<div class="relative w-50">
 			<span class="absolute -top-7 -left-7 w-63">
 				<svg
 					id="Layer_1"
@@ -54,12 +54,12 @@
 				alt="Profile of Maite Huylebroeck"
 			/>
 		</div>
-		<div class="text-primary">
-			<h1 class="font-title text-6xl">Maïté Huylebroeck</h1>
+		<div class="text-primary text-center lg:text-left">
+			<h1 class="font-title text-5xl lg:text-6xl">Maïté Huylebroeck</h1>
 			<h2 class="text-3xl">graphic design and communications</h2>
 		</div>
 	</div>
-	<p class="mx-auto mt-20 w-2/3 text-center text-xl text-primary">
+	<p class="mx-auto mt-20 lg:w-2/3 text-center text-xl text-primary">
 		Hey, I’m Maïté, a graphic designer and communication wizard with a soft spot for unexpected
 		color combinations, balanced layouts, and the occasional quirky twist that makes a design unique
 		and inspiring.

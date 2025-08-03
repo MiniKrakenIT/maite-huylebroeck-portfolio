@@ -1,10 +1,10 @@
 <script lang="ts">
 	import ProjectPost from '$lib/components/ProjectPost.svelte';
 	import Tag from '$lib/components/Tag.svelte';
-	import image1 from '$lib/assets/projects/fanfinity/Portfolio pics-04-min.jpg?enhanced';
-	import image3 from '$lib/assets/projects/fanfinity/Portfolio pics_visual 1-min.jpg?enhanced';
-	import image4 from '$lib/assets/projects/fanfinity/Portfolio pics_visual 2-min.jpg?enhanced';
-	import image5 from '$lib/assets/projects/fanfinity/Portfolio pics_visual 4-min.jpg?enhanced';
+	import image1 from '$lib/assets/projects/fanfinity/image-1.jpg?enhanced';
+	import image3 from '$lib/assets/projects/fanfinity/image-3.jpg?enhanced';
+	import image4 from '$lib/assets/projects/fanfinity/image-4.jpg?enhanced';
+	import image5 from '$lib/assets/projects/fanfinity/image-5.jpg?enhanced';
 	import type { Picture } from 'vite-imagetools';
 	import MansoryGallery from '$lib/components/MansoryGallery.svelte';
 

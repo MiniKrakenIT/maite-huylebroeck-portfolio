@@ -16,14 +16,21 @@
 	import image10 from '$lib/assets/projects/Pokémon EUIC/image-10.jpg?enhanced';
 	import image11 from '$lib/assets/projects/Pokémon EUIC/image-11.jpg?enhanced';
 
-	const images: Picture[] = [image1, image2, image3, image4, image5 ,image6, image7, image8, image9, image10, image11];
-
-	const tags = [
-		'Illustrator',
-		'Indesign',
-		'Photoshop',
-		'Google workspace'
+	const images: Picture[] = [
+		image1,
+		image2,
+		image3,
+		image4,
+		image5,
+		image6,
+		image7,
+		image8,
+		image9,
+		image10,
+		image11
 	];
+
+	const tags = ['Illustrator', 'Indesign', 'Photoshop', 'Google workspace'];
 </script>
 
 <ProjectPost title="Pokémon EUIC">

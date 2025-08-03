@@ -44,13 +44,13 @@
 			{title}
 		</h3>
 		<div
-			class="mb-2 flex flex-wrap justify-center lg:justify-normal {reversed
+			class="mb-2 gap-1 flex flex-wrap justify-center lg:justify-normal {reversed
 				? 'lg:flex-row-reverse'
 				: ''}"
 		>
 			{#each tags as tag}
 				<span
-					class="mx-1 inline-block rounded-full bg-primary px-3 text-sm font-semibold text-background"
+					class="inline-block rounded-full bg-primary px-3 text-sm font-semibold text-background"
 				>
 					{tag}
 				</span>
