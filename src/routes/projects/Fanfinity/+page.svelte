@@ -6,7 +6,7 @@
 	import image4 from '$lib/assets/projects/fanfinity/Portfolio pics_visual 2-min.jpg?enhanced';
 	import image5 from '$lib/assets/projects/fanfinity/Portfolio pics_visual 4-min.jpg?enhanced';
 	import type { Picture } from 'vite-imagetools';
-	import MansoryGallery from "$lib/components/MansoryGallery.svelte";
+	import MansoryGallery from '$lib/components/MansoryGallery.svelte';
 
 	const images: Picture[] = [image1, image3, image4, image5];
 

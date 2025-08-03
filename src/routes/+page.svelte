@@ -4,6 +4,7 @@
 	import profilePic from '$lib/assets/profile.jpg?enhanced';
 
 	import fanfinity from '$lib/assets/projects/fanfinity/Portfolio pics_homepage image-min.jpg?enhanced';
+	import pokemonAUIC from '$lib/assets/projects/Pokémon EUIC/image-1.jpg?enhanced';
 </script>
 
 <div>
@@ -26,31 +27,21 @@
 				office branding, business cards, templates, stream assets, etc…
 			</ProjectPreview>
 			<ProjectPreview
-				href="/projects/someproject"
-				img={profilePic}
-				title={'Hello World'}
+				href="/projects/Pokemon-EUIC"
+				img={pokemonAUIC}
+				title={'Pokémon EUIC'}
 				position="right"
-				tags={['svelte', 'sveltekit', 'tailwindcss']}
+				tags={['branding']}
 			>
-				Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-				diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
-				enim ad minim veniam, quis nostrud exerci tation ullamcorper
+				Aside from maintaining our own branding, I’m also in charge of the event branding we create
+				for clients. The biggest project I work(ed) on is the Pokémon Europe International
+				Championships. For the past three years, I’ve been the sole graphic designer responsible for
+				almost all on-site branding — from signage to screens and everything in between.
 			</ProjectPreview>
 			<ProjectPreview
 				href="/projects/someproject"
 				img={profilePic}
 				title={'Hello World'}
-				tags={['svelte', 'sveltekit', 'tailwindcss']}
-			>
-				Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-				diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
-				enim ad minim veniam, quis nostrud exerci tation ullamcorper
-			</ProjectPreview>
-			<ProjectPreview
-				href="/projects/someproject"
-				img={profilePic}
-				title={'Hello World'}
-				position="right"
 				tags={['svelte', 'sveltekit', 'tailwindcss']}
 			>
 				Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed

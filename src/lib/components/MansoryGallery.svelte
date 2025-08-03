@@ -11,13 +11,8 @@
 <div class="masonry">
 	{#each images as image}
 		<div class="item">
-			<a href="{image.img.src}">
-				<enhanced:img
-					class="rounded-xl"
-					loading="lazy"
-					src={image}
-					alt="Preview of project"
-				/>
+			<a href={image.img.src}>
+				<enhanced:img class="rounded-xl" loading="lazy" src={image} alt="Preview of project" />
 			</a>
 		</div>
 	{/each}
@@ -30,5 +25,4 @@
 		grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
 		grid-template-rows: masonry;
 	}
-
 </style>
