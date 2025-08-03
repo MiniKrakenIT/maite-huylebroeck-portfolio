@@ -1,11 +1,15 @@
 name: Deploy to GitHub Pages
 
+
 on:
   push:
     branches: ['main']
 
 jobs:
   build_site:
+    env:
+      PUBLIC_ORIGIN: 'https://maitehuylebroeck.minikraken.cloud'#'${{ secrets.PUBLIC_ORIGIN }}'
+
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -21,7 +25,6 @@ jobs:
       - name: build
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
-          PUBLIC_ORIGIN: ${{ secrets.PUBLIC_ORIGIN }}
 
         run: |
           bun run build
