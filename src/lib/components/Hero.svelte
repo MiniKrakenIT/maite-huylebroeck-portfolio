@@ -1,5 +1,5 @@
 <script lang="ts">
-	import profilePic from '$lib/assets/profile-pic.jpg?enhanced';
+	import profilePic from '$lib/assets/profile.jpg?enhanced';
 </script>
 
 <div class="relative flex w-full flex-col items-center px-15">
@@ -47,6 +47,8 @@
 			</span>
 			<enhanced:img
 				loading="lazy"
+				width="512"
+				height="512"
 				class="rounded-full"
 				src={profilePic}
 				alt="Profile of Maite Huylebroeck"

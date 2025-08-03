@@ -1,5 +1,14 @@
 <script lang="ts">
-	let { children } = $props();
+	import type { Snippet } from 'svelte';
+
+	interface Props {
+		title: string;
+		children: Snippet;
+		class?: string;
+		[key: string]: unknown;
+	}
+
+	const { title, children, class: classes }: Props = $props();
 </script>
 
 <div class="mx-auto mt-20 text-primary">
@@ -20,7 +29,7 @@
 				/>
 			</svg>
 		</a>
-		<h1 class="m-0 text-center font-title text-6xl font-bold">Project</h1>
+		<h1 class="m-0 text-center font-title text-6xl font-bold">{title}</h1>
 	</div>
 
 	<div class="mx-auto prose">

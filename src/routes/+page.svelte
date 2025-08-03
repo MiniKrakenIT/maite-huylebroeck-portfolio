@@ -1,7 +1,9 @@
 <script>
 	import Hero from '$lib/components/Hero.svelte';
 	import ProjectPreview from '$lib/components/ProjectPreview.svelte';
-	import profilePic from '$lib/assets/profile-pic.jpg?enhanced';
+	import profilePic from '$lib/assets/profile.jpg?enhanced';
+
+	import fanfinity from '$lib/assets/projects/fanfinity/Portfolio pics_homepage image-min.jpg?enhanced';
 </script>
 
 <div>
@@ -12,16 +14,16 @@
 		<p class="mt-0">
 			Instead of writing a whole book, I’d like to let my portfolio do the talking.
 		</p>
-		<div class="relative mx-auto mt-15 flex w-2/3 flex-wrap gap-5">
+		<div class="relative mx-auto mt-15 flex w-2/3 flex-wrap gap-15 lg:gap-10">
 			<ProjectPreview
-				href="/projects/someproject"
-				img={profilePic}
-				title={'Hello World'}
-				tags={['svelte', 'sveltekit', 'tailwindcss']}
+				href="/projects/Fanfinity"
+				img={fanfinity}
+				title={'Fanfinity'}
+				tags={['branding', 'social media', 'communication']}
 			>
-				Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-				diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
-				enim ad minim veniam, quis nostrud exerci tation ullamcorper
+				In my current function I’m responsible for the branding and communication of the company
+				both digital and print. This includes social media posts, expo stands, flyers, newsletters,
+				office branding, business cards, templates, stream assets, etc…
 			</ProjectPreview>
 			<ProjectPreview
 				href="/projects/someproject"

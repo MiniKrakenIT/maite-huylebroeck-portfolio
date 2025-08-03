@@ -1,6 +1,5 @@
 name: Deploy to GitHub Pages
 
-
 on:
   push:
     branches: ['main']
@@ -8,7 +7,7 @@ on:
 jobs:
   build_site:
     env:
-      PUBLIC_ORIGIN: 'https://maitehuylebroeck.minikraken.cloud'#'${{ secrets.PUBLIC_ORIGIN }}'
+      PUBLIC_ORIGIN: 'https://maitehuylebroeck.minikraken.cloud'
 
     runs-on: ubuntu-latest
     steps:
